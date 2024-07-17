@@ -45,7 +45,7 @@ def home(request):
 
                 html_message = render_to_string(html_template, { 'available_quantity': available_quantity, 'item':item})
 
-                subject = 'VCPTU STOCK MANAGER ALERT'
+                subject = 'wisdsol STOCK MANAGER ALERT'
                 from_email = 'lovjes4@gmail.com'
                 to_email = ['wisdsoltech@gmail.com']
 
